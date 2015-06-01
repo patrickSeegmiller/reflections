@@ -1,0 +1,30 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+I was able to visually inspect each difference between the two files in order to isolate the spelling error.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+In the long term, coding errors will be identifiable much more readily, allowing for faster debugging etc.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros of Manual Commits: You can perform logical and reasonably sized commits.
+Cons of Manual Commits: You might forget to make a commit.
+Pros of Automatic Commits: You will always have commits performed. There is no worry about forgetting.
+Cons of Automatic Commits: You might have too many commits. They could be performed at odd times, perhaps in the middle of code blocks which could result in compiler errors.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Treating each file separately would seem to be far easier, and when working in an environment like Google Docs, interdependance of files is less likely since there is no coding. Allowing for saving of multiple files with a single commit would be very useful when working on a large programming project as changes an any one file can result in changes across the entire program.
+
+How can you use the commands git log and git diff to view the history of files?
+
+The command 'git log' allows us to look over all commits and the command 'git diff' allows us to look at the specific differences between to given commits.
+
+How might using version control make you more confident to make changes that could break something?
+
+The worry of being unable to return to the prior functional version would be nonexistent.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I think it would be interesting to work on an actual programming project.
